@@ -11,3 +11,8 @@ npm uninstall typescript @types/node @types/react
 
 2) ![alt text](image.png)
 
+3) to create a documnet in that testimolial file we have to follow belows
+    1) ![alt text](image-1.png)
+    2) ![alt text](image-2.png)
+    3) 
+4) 
