@@ -40,7 +40,24 @@ exa=> app__navbar here __ is a BEM methologies
 ## -----------------------------
 17) complete the about section without sanity
 18) ![alt text](image-6.png)
-19) 
+
+## ----------- now we are going to connect our react application to sanity
+
+19) to connect the sanity with react app we need some parameters like=> pojectId, dataset,apiVesion,useCdn, token. which we can take from the sanity's that peoject.
+20) ![alt text](image-7.png)
+21) ![alt text](image-8.png)
+22) to get the token we have to follow 
+23) ![alt text](image-9.png)
+24) add the localhost:3000 in this 
+25) ![alt text](image-10.png)
+26) ![alt text](image-11.png)
+27) click on Add Api token and select the edit check boox
+28) ![alt text](image-12.png)
+29) ![alt text](image-13.png)
+30) after appyed the sanity 
+31) ![alt text](image-14.png)
+32) ![alt text](image-15.png)
+
 
 
 
