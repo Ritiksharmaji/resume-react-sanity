@@ -201,4 +201,8 @@ export 'default' (imported as 'ReactTooltip') was not found in 'react-tooltip' (
 31) ![alt text](image-28.png)
 
 ## ------------------- footer section ----------
-32) 
+32) ![alt text](image-29.png)
+32) this below data is comming from the react app after submit
+33) ![alt text](image-30.png)
+
+## ----------- now to deplay our application we can use any one platform but to get the data we neet to give that url where url front is running in sanity api managemnt 
