@@ -206,3 +206,11 @@ export 'default' (imported as 'ReactTooltip') was not found in 'react-tooltip' (
 33) ![alt text](image-30.png)
 
 ## ----------- now to deplay our application we can use any one platform but to get the data we neet to give that url where url front is running in sanity api managemnt 
+
+34) deplayed in vercel so url is 
+![alt text](image-31.png)
+35) now give this url to sanity api managment path
+36) ![alt text](image-32.png)
+37) after that output is 
+![alt text](image-33.png)
+38) finish
