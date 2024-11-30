@@ -34,7 +34,9 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-
+import javascript_icon from '../assets/javascript_icon.png'
+import java_icon from '../assets/java_icon.png'
+import react_js from '../assets/react_js.png'
 
 
 
@@ -72,4 +74,7 @@ export default {
   nb,
   skype,
   spotify,
+  java_icon,
+  javascript_icon,
+  react_js
 };
