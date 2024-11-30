@@ -192,3 +192,5 @@ export 'default' (imported as 'ReactTooltip') was not found in 'react-tooltip' (
 22) ![alt text](image-19.png)
 23) ![alt text](image-21.png)
 24) ![alt text](image-22.png)
+25) output-- ![alt text](image-23.png)
+26) 
