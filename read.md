@@ -61,8 +61,134 @@ exa=> app__navbar here __ is a BEM methologies
 34) ![alt text](image-16.png)
 35) ![alt text](image-17.png)
 36) ![alt text](image-18.png)
-37) 
+37) install the npm install react-tooltip
+38) The `react-tooltip` library is used in React applications to display tooltips—small, contextual messages that appear when users hover over, focus on, or click an element. Tooltips are commonly used to provide additional information about a UI element without cluttering the interface.
+
+---
+
+### **Key Features of `react-tooltip`:**
+1. **Customizable Tooltips:**
+   - You can style the tooltips to match your application's theme.
+2. **Event-based Triggering:**
+   - Tooltips can be shown on hover, focus, or click events.
+3. **Dynamic Content:**
+   - The content of the tooltip can be dynamic and even include HTML or React components.
+4. **Placement Control:**
+   - You can control where the tooltip appears (e.g., top, bottom, left, right).
+5. **Lightweight and Easy to Use:**
+   - Minimal configuration is needed to get started.
+
+---
+
+### **How to Use `react-tooltip`:**
+
+#### **1. Install the Library**
+   ```bash
+   npm install react-tooltip
+   ```
+
+#### **2. Import and Setup**
+   ```jsx
+   import React from 'react';
+   import ReactTooltip from 'react-tooltip';
+
+   const Example = () => {
+     return (
+       <div>
+         <button data-tip="This is a tooltip!">Hover over me</button>
+         <ReactTooltip />
+       </div>
+     );
+   };
+
+   export default Example;
+   ```
+
+#### **3. Advanced Usage**
+   You can customize the tooltip using props or inline styles.
+
+   ```jsx
+   import React from 'react';
+   import ReactTooltip from 'react-tooltip';
+
+   const AdvancedExample = () => {
+     return (
+       <div>
+         <button data-tip="I am a custom tooltip!" data-place="right" data-effect="solid">
+           Hover over me
+         </button>
+         <ReactTooltip
+           place="top"
+           type="dark"
+           effect="float"
+           delayShow={500} // Delay in milliseconds
+         />
+       </div>
+     );
+   };
+
+   export default AdvancedExample;
+   ```
+
+#### **4. Dynamic Content**
+   You can pass dynamic data to tooltips.
+
+   ```jsx
+   import React from 'react';
+   import ReactTooltip from 'react-tooltip';
+
+   const DynamicTooltip = ({ info }) => {
+     return (
+       <div>
+         <button data-tip={info}>Hover to see info</button>
+         <ReactTooltip />
+       </div>
+     );
+   };
+
+   export default DynamicTooltip;
+   ```
+
+---
+
+### **Common Use Cases for `react-tooltip`:**
+1. **Icon Descriptions:**
+   - Provide additional information about icons or buttons.
+   ```jsx
+   <i data-tip="Settings" className="fa fa-cog"></i>
+   <ReactTooltip />
+   ```
+
+2. **Forms:**
+   - Add contextual help for form fields.
+   ```jsx
+   <input data-tip="Enter your full name" placeholder="Full Name" />
+   <ReactTooltip />
+   ```
+
+3. **Charts and Visualizations:**
+   - Display data values or details when hovering over chart points.
+
+4. **Feature Highlights:**
+   - Explain new features in an application.
+
+---
+
+### **Why Use `react-tooltip`?**
+- It simplifies the process of creating tooltips, eliminating the need for custom tooltip implementations.
+- Provides built-in accessibility (e.g., for screen readers).
+- Saves development time with ready-to-use configurations and extensive customization options.
 
 
 
 
+## - getting error as ERROR in ./src/container/Skills/Skills.jsx 130:45-57
+export 'default' (imported as 'ReactTooltip') was not found in 'react-tooltip' (possible exports: Tooltip, TooltipProvider, TooltipWrapper, removeStyle)
+20) ans - to fix it
+## --- this is now version  react-tooltip@5.28.0
+21) to check  npm list react-tooltip
+
+## ------------------------
+22) ![alt text](image-19.png)
+23) ![alt text](image-21.png)
+24) ![alt text](image-22.png)
