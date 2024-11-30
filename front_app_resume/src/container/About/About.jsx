@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import {images} from '../../constants'
 import './About.scss';
 import { urlFor, client } from '../../client';
-
+import { AppWrap, MotionWrap } from '../../wrapper';
 
 // const abouts = [
 //   {title: 'web developer', description: 'I am good in ',imgUrl: images.about01 },
@@ -46,4 +46,9 @@ const About = () => {
   );
 };
 
-export default About;
+// export default About;
+export default AppWrap(
+  MotionWrap(About, 'app__about'),
+  'about',
+  'app__whitebg',
+);

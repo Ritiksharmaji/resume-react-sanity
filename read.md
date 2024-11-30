@@ -57,6 +57,11 @@ exa=> app__navbar here __ is a BEM methologies
 30) after appyed the sanity 
 31) ![alt text](image-14.png)
 32) ![alt text](image-15.png)
+33) completed the work section
+34) ![alt text](image-16.png)
+35) ![alt text](image-17.png)
+36) ![alt text](image-18.png)
+37) 
 
 
 
