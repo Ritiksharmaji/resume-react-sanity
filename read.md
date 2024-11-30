@@ -193,4 +193,12 @@ export 'default' (imported as 'ReactTooltip') was not found in 'react-tooltip' (
 23) ![alt text](image-21.png)
 24) ![alt text](image-22.png)
 25) output-- ![alt text](image-23.png)
-26) 
+26) ## --------------- this is for teestimonial section 
+27) ![alt text](image-24.png)
+28) ![alt text](image-25.png)
+29) ![alt text](image-26.png)
+30) ![alt text](image-27.png)
+31) ![alt text](image-28.png)
+
+## ------------------- footer section ----------
+32) 
