@@ -37,10 +37,18 @@ import spotify from '../assets/spotify.png';
 import javascript_icon from '../assets/javascript_icon.png'
 import java_icon from '../assets/java_icon.png'
 import react_js from '../assets/react_js.png'
+import ritik_image from '../assets/ritik_image.png'
+import ritik2_image from '../assets/ritik2_image.png'
+import image4_ritik from '../assets/image4_ritik.png'
 
+import image5_ritik from '../assets/image5_ritik.png'
 
 
 export default {
+  ritik_image,
+  ritik2_image,
+  image4_ritik,
+  image5_ritik,
   email,
   mobile,
   api,
